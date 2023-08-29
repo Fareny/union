@@ -1,0 +1,43 @@
+.search__container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100vw;
+}
+
+.search__label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    pointer-events: none;
+}
+
+.search__icon {
+    width: 22px;
+    height: 25px;
+    position: absolute;
+    color: #949494;
+    z-index: 100;
+    top: 13px;
+    left: 13px;
+}
+
+.search {
+    padding: 15px 15px 15px 42px;
+    border-radius: 0;
+
+    position: relative;
+    font-size: 17px;
+    line-height: 140%;
+    flex: 1 1;
+    width: 100vw;
+    background: #17212b;
+    border: none;
+    outline: none;
+    color: #fff;
+    box-sizing: border-box;
+    /* Добавляем это свойство */
+}

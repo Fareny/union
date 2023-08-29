@@ -1,0 +1,11 @@
+.slider__wrapper {
+    padding: 15px !important;
+    padding-top: 5px !important;
+}
+
+.slide {
+    width: 100px !important;
+    height: 100px !important;
+    background-color: #17212b;
+    border-radius: 20px;
+}

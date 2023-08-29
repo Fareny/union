@@ -3,13 +3,14 @@
 import React from 'react';
 import style from './Navbar.module.css';
 import logo from '../../assets/telegram.png';
+import { MdKeyboardArrowRight } from 'react-icons/md';
 
 function Navbar({ userName }) {
     return (
         <div className={style.nav}>
             <div className={style.user__container}>
                 <p className={style.sticker}>😎</p>
-                <p className={style.userName}>{userName + ' >'}</p>
+                <p className={style.userName}>{userName} {<MdKeyboardArrowRight />}</p>
             </div>
             <div className={style.channel__container}>
                 <div className={style.channel}>

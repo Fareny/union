@@ -25,7 +25,7 @@
     content: '';
     width: 40px;
     height: 40px;
-    background-color: #2C2C2C;
+    background-color: #17212b;
     border-radius: 50%;
     position: absolute;
     bottom: -5px;
@@ -36,25 +36,27 @@
 
 
 .userName {
+    display: flex;
+    align-items: center;
     font-size: 18px;
-    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-family: 'SF Pro Display', sans-serif;
 }
 
 .channel__container {
     display: flex;
     align-items: center;
-    background-color: #2C2C2C;
+    background-color: #17212b;
     border-radius: 70px;
 }
 
 .channel__name {
     font-size: 16px;
-    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-family: 'SF Pro Display', sans-serif;
 }
 
 .channel__description {
     font-size: 10px;
-    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-family: 'SF Pro Display', sans-serif;
     color: #ccc;
 }
 
@@ -65,9 +67,10 @@
 
 .channel {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .channel__info {
     padding-right: 13px;
+    padding-top: 2px;
 }

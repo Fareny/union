@@ -1,0 +1,107 @@
+.distribution {
+    width: 100%;
+}
+
+.distribution__wrapper {
+    padding: 15px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.distribution__image {
+    margin-bottom: -30px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.distribution__text {
+    max-height: 250px;
+    border-radius: 36px;
+    padding: 15px;
+    padding-top: 10px;
+    background-color: #17212b;
+
+    @media (max-width: 320px) {
+        padding: 0;
+        height: 200px;
+        border-radius: 0px 0px 20px 20px;
+    }
+}
+
+.present {
+    font-family: 'SF Pro Display bold', sans-serif;
+    color: #fff;
+    background-color: #232e3c;
+    padding: 7px;
+    border-radius: 30px;
+    font-size: 15px;
+    text-align: center;
+
+    @media (max-width: 320px) {
+        font-size: 14px;
+    }
+}
+
+.present__timer {
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+
+    @media (max-width: 320px) {
+        font-size: 14px;
+    }
+}
+
+.presents {
+    font-family: 'SF Pro Display bold', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+    @media (max-width: 320px) {
+        padding: 10px;
+        margin-bottom: 0px;
+    }
+}
+
+.text {
+    font-family: 'SF Pro Display bold', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-left: 6px;
+
+    @media (max-width: 320px) {
+        padding: 10px;
+        padding-bottom: 0px;
+        text-align: center;
+        padding-top: 0;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+}
+
+.distribution__button {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 15px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: auto;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgba(28, 28, 28, 0);
+    margin-top: 10px;
+
+    @media (max-width: 320px) {
+        padding: 10px;
+    }
+
+}

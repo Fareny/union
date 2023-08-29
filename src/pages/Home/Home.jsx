@@ -3,6 +3,12 @@ import Navbar from '../../components/Navbar/Navbar'
 // import { useTelegram } from '../../hooks/useTelegram'
 import style from './Home.module.css'
 import Search from '../../components/Search/Search'
+import Slider from '../../components/Slider/Slider'
+import Main from '../../components/Main/Main'
+import Distribution from '../../components/Distribution/Distribution.jsx'
+import Paid from '../../components/Paid/Paid'
+import Calculation from '../../components/Calculation/Calculation'
+import Catalog from '../../components/Catalog/Catalog'
 
 const user = {
     id: 123456789,
@@ -50,6 +56,12 @@ function Home() {
 
             <Navbar userName={user.first_name} />
             <Search />
+            <Slider />
+            <Main />
+            <Distribution />
+            <Paid />
+            <Calculation />
+            <Catalog />
 
         </div>
     )

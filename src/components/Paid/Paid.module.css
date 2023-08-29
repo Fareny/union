@@ -1,0 +1,54 @@
+.paid_section {
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.paid {
+    color: #fff;
+    font-family: 'SF Pro Display bold', sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.paid_wrapper {
+    display: flex;
+    background-color: #17212b;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.paid_img {
+    width: 130px;
+    border-radius: 20px;
+
+    @media (max-width: 320px) {
+        width: 100px;
+    }
+}
+
+.paid_info {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.paid_price {
+    font-family: 'SF Pro Display bold', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.paid_name {
+    color: #fff;
+    font-family: 'SF Pro Display bold', sans-serif;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.paid_text {
+    color: #fff;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 16px;
+}

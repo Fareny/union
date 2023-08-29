@@ -1,0 +1,47 @@
+.item {
+    width: 48%;
+    list-style: none;
+    background-color: #17212b;
+    border-radius: 20px;
+
+    @media (max-width: 320px) {
+        width: 100%;
+    }
+}
+
+.img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+.price {
+    font-family: 'SF Pro Display bold', sans-serif;
+    color: #fff;
+    padding-left: 15px;
+}
+
+.name {
+    font-family: 'SF Pro Display', sans-serif;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+.button__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    font-family: 'SF Pro Display', sans-serif;
+    background-color: #232e3c;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 20px;
+    width: 90%;
+    padding: 7px;
+    border: none;
+    margin-bottom: 6px;
+}
